@@ -1,30 +1,33 @@
 /* IMAGE WEB3 */
 
 .imagen-web3 {
-  width: 100%;
+  width: 53%;
 }
 
 .box-div {
   display: flex;
+  width: 53%;
+  justify-content: space-around;
+
 }
 
-.left-div {
+  .left-div {
   width: 50%;
-}
 
-.web3-h2 {
-  font-size: 78px;
-  padding-right: 200px;
-}
-
+} 
 .right-div {
   width: 50%;
+
+} 
+
+.web3-h2 {
+  font-size: 40px;
+  width: 54%;
 }
 
+
 .web3-p {
-  color: #c5c6ce;
-  font-size: 29px;
-  margin-top: 80px;
+  color: #a6a5ac;
 }
 
 .web3-button {
@@ -41,10 +44,12 @@
 
 .divFooter {
   display: flex;
-  gap: 40px;
   justify-content: space-between;
 }
-
+.divFooter img {
+  width: 110px;
+  height: 140px;
+}
 .divSecciones {
   display: flex;
   height: 100%;
@@ -55,7 +60,6 @@
   padding-left: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .h2-Footer {

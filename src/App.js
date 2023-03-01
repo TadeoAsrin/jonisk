@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <Menu />
-      <Image />
-      <Footer />
+      <div id="romario">
+        <Image />
+        <Footer />
+      </div>
     </>
   );
 }
