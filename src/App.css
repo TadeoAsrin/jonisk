@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+/* IMAGE WEB3 */
+
+.imagen-web3 {
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box-div {
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left-div {
+  width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.web3-h2 {
+  font-size: 78px;
+  padding-right: 200px;
+}
+
+.right-div {
+  width: 50%;
+}
+
+.web3-p {
+  color: #c5c6ce;
+  font-size: 29px;
+  margin-top: 80px;
+}
+
+.web3-button {
+  padding: 20px 45px;
+  color: white;
+  border: none;
+  background-color: #f15e50;
+  font-weight: 700;
+  margin-top: 28px;
+  border-radius: 2px;
+}
+
+/* FOOTER */
+
+.divFooter {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.divSecciones {
+  display: flex;
+  height: 100%;
+  width: 33%;
+}
+
+.textSeccion {
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.h2-Footer {
+  margin-top: 0px;
+  color: #c5c6ce;
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p-Footer {
+  color: #5d5f79;
 }
