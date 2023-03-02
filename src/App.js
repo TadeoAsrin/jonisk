@@ -2,6 +2,7 @@ import Menu from "./components/Menu";
 import Image from "./components/ImageWeb3";
 import "./App.css";
 import Footer from "./components/Footer";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
       <Menu />
       <div id="romario">
         <Image />
-        <Footer />
+        <Card />
       </div>
+      <Footer />
     </>
   );
 }

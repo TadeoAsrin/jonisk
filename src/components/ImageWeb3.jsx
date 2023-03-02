@@ -3,7 +3,7 @@ import Web3Image from "../images/image-web-3-desktop.jpg";
 
 const Image = () => {
   return (
-    <>
+    <><div>
       <section>
         <article>
           <img src={Web3Image} alt="" className="imagen-web3" />
@@ -21,6 +21,7 @@ const Image = () => {
           </p>
           <button className="web3-button">READ MORE</button>
         </div>
+      </div>
       </div>
     </>
   );
